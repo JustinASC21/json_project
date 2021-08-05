@@ -1,1 +1,27 @@
 /* Add your styling here: */
+body {
+    background-color: lightcoral;
+    text-align: center;
+}
+#profiles {
+    display: flex;
+    flex-wrap: wrap;
+}
+#profiles div {
+    border: black 3px solid;
+    width: 15%
+}
+img {
+    border-radius: 100%;
+    border: 2px red dashed;
+}
+/* hover effect */
+img:hover {
+    opacity: 0.7;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:lightgreen;
+    font-weight: bold;
+}
