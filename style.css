@@ -8,8 +8,9 @@ body {
     flex-wrap: wrap;
 }
 #profiles div {
-    border: black 3px solid;
-    width: 15%
+    border: black 5px solid;
+    width: 15%;
+    margin: 5px;
 }
 img {
     border-radius: 100%;
